@@ -8,7 +8,7 @@ Rem: Made By Hackabus
 Rem:-----
 Press:131+114
 CustomDelay:500
-Print:shell:Desktop
+Print:shell:startup
 Press:176
 CustomDelay:1000
 Press:130+102
